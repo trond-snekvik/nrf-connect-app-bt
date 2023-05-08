@@ -11,4 +11,16 @@ manifest:
       remote: nrfconnect
       repo-path: sdk-nrf
       revision: v2.3.0
-      import: true
+      import:
+        name-allowlist:
+          - zephyr
+          - hal_nordic
+          - cmsis
+          - mbedtls
+          - mbedtls-nrf
+          - nrfxlib
+          - trusted-firmware-m
+          - libmetal
+          - liblc3
+          - segger
+          - tinycrypt
