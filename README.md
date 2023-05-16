@@ -1,4 +1,4 @@
-# Bluetooth application template for nRF Connect SDK
+# Bluetooth application template
 
 Blank starting point for an nRF Connect SDK application with Bluetooth support.
 
