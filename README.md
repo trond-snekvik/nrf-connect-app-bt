@@ -29,6 +29,6 @@ If you already have an nRF Connect SDK, you can clone this repo next to ./nrf an
 The west.yml file in the app will be ignored, but you can reconfigure your west workspace to use the application's manifest later by calling:
 
 ```
-west config manifest.path nrf-connect-app
+west config manifest.path nrf-connect-app-bt
 west update
 ```
